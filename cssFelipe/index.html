@@ -92,14 +92,20 @@
             <br><strong>Color:</strong>- A propriedade color é utilizada para definir a cor do texto de um elemento
             HTML. Por exemplo: Quando aplicada a um elemento, o texto dentro dele terá a cor definida.<br>
             <br><strong>background-color:</strong> - A propriedade background-color é utilizada para definir a cor de
-            fundo de um elemento HTML. Por exemplo:  Definimos a cor de fundo da tag < p> para amarelo. As propriedades color e background-color aceitam diversos
+            fundo de um elemento HTML. Por exemplo: Definimos a cor de fundo da tag < p> para amarelo. As propriedades
+                color e background-color aceitam diversos
                 tipos de valores na hora de definir a cor de um elemento.<br>
-                <strong>Nominal:</strong> - Quando indicamos a cor que queremos através do seu nome. No CSS, o nome das cores deve ser dado em
-                inglês. Por exemplo: Se quisermos um texto vermelho, vamos definir a propriedade color com o valor  red.<br>
-                <strong>RGB:</strong> - A sigla RGB vem do inglês para RED (vermelho), GREEN (verde), BLUE (azul) e permite a criação de
-                diversas cores através da mistura dessas três cores. No CSS, esses valores vão de 0 até 255. Se quisermos definir a cor vermelha em RGB faríamos assim:<br>
+                <strong>Nominal:</strong> - Quando indicamos a cor que queremos através do seu nome. No CSS, o nome das
+                cores deve ser dado em
+                inglês. Por exemplo: Se quisermos um texto vermelho, vamos definir a propriedade color com o valor
+                red.<br>
+                <strong>RGB:</strong> - A sigla RGB vem do inglês para RED (vermelho), GREEN (verde), BLUE (azul) e
+                permite a criação de
+                diversas cores através da mistura dessas três cores. No CSS, esses valores vão de 0 até 255. Se
+                quisermos definir a cor vermelha em RGB faríamos assim:<br>
                 <br>Com os valores 255,0,0 estamos dizendo que queremos 255 de vermelho, 0 de verde e 0 de azul.<br>
-                <strong>RGBA:</strong>- O RGBA tem o mesmo funcionamento do RGB, porém, ele ganha um parâmetro extra, o A (Alpha). O que esse parâmetro faz é definir o nível de transparência de uma cor. O
+                <strong>RGBA:</strong>- O RGBA tem o mesmo funcionamento do RGB, porém, ele ganha um parâmetro extra, o
+                A (Alpha). O que esse parâmetro faz é definir o nível de transparência de uma cor. O
                 parâmetro A deve ser definido com um valor entre 0 e 1:<br>
                 0 = 100% transparente / invisível<br>
                 0.5 = semitransparente<br>
@@ -114,8 +120,10 @@
                 #00FF00 = Cor Verde<br>
                 #0000FF = Cor Azul<br>
                 <br><strong>HSL</strong><br>
-                Também é possível definir cores no HTML através do uso de H(Hue), S(Saturation), L (Lightness). O valor de H se baseia na roda de cores e vai de 0 a 360.<br>
-                O valor S determina a saturação da cor, ou seja, se a cor será mais viva ou mais fraca. O valor de S vai de 0 a 100%, onde:<br>
+                Também é possível definir cores no HTML através do uso de H(Hue), S(Saturation), L (Lightness). O valor
+                de H se baseia na roda de cores e vai de 0 a 360.<br>
+                O valor S determina a saturação da cor, ou seja, se a cor será mais viva ou mais fraca. O valor de S vai
+                de 0 a 100%, onde:<br>
                 0 = Preto e Branco
                 <br>50% = Cor leve
                 <br>100% = Cor forte
@@ -150,6 +158,29 @@
                 "amarelo".<br></p>
             </div>
 
+            <script>
+                var a = window.document.getElementById('.informacoes4')
+                a.addEventListener('click', Clicar)
+                a.addEventListener('mousenter', entrar)
+                a.addEventListener('mouseout', sair)
+
+                function Clicar() {
+                    var a = window.document.getElementById('.informacoes4')
+                    a.style.color = 'white'
+                    a.style.backgroundColor = 'red'
+                }
+                function entrar() {
+                    var a = window.document.getElementById('.informacoes4')
+                    a.innerText = 'Entrou'
+                    a.style.backgroundColor = 'pink'
+                }
+                function sair() {
+                    var a = window.document.getElementById('.informacoes4')
+                    a.innerText = 'Saiu'
+                    a.style.backgroundColor = 'green'
+                }
+
+            </script>
 </body>
 
 </html>
