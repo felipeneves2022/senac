@@ -1,0 +1,30 @@
+h2 {
+    font-size: 60px;
+    color: rgb(238, 174, 55);
+    text-align: center;
+}
+h2{
+
+
+}
+html{
+    background-color:rgb(4, 246, 246);
+}
+p {
+text-align: center;
+font-size: 40px;
+font-weight: 100;
+color: red;
+font-family: 'Lucida Sans';
+}
+
+h3{
+
+    align-items: center;
+}
+
+button {
+    position: absolute;
+    left: 35%;
+    
+}
