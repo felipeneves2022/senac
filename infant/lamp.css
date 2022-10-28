@@ -1,0 +1,80 @@
+h2 {
+    font-size: 60px;
+    color:#9400D3;
+    text-align: center;
+    font-family: comic sans;
+    background-color:#E6E6FA;
+
+    }
+h3 {
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    color:#FFA500;
+    font-family: 'Lucida Sans';
+    background-color: #ADFF2F;
+        }
+
+p {
+
+}
+h4{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 100;
+    color:#87CEFA;
+    font-family: 'Lucida Sans';
+    background-color: #9400D3;
+        
+}
+
+#imgpos {
+    position: absolute; 
+    right: 500px;
+    bottom: unset;
+}
+button {
+    position:center; 
+    right: 1000px;
+    bottom: 100px;
+    position:
+
+}
+
+body {
+    
+  }
+  
+  .planet-removebg-preview {
+   
+    animation: go-back 3s infinite alternate;
+  }
+  
+  .nuvem-removebg-preview {
+    animation: go-back 15s infinite alternate;
+
+  }
+  .astronauta2-removebg-preview.png {
+    animation: go-back 25s infinite alternate;
+
+  }
+
+  @keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+
+    @keyframes go-back {
+        from{
+            transform: translateX (100px) ;
+        }
+        to {
+            transform: translateX(0);
+        }
+        
+    }
+  }
